@@ -7,36 +7,34 @@
   </head>
   <body>
 
-    <header>
-      <section class="caixa">
-        <h1>Compre seu medicamento secreto</h1>
-      </section>
-    </header>
+    <div id="main-container">
 
+      <main>
+        
+        <form name="Cifrar">
+          <legend>Digite a chave e em seguida a palavra que deseja cifrar.</legend>
 
-    <main>
-      <div id="container">
+          <div>
+            <label for="offset">Chave</label>
+            <input type="number" id="offset">
+          </div>
 
-        <div id="div-filha">
-          <label for="instrução1">
-            Insira o nome do medicamento e o offset secreto para cifrar o nomed
-          </label>
-          <input id="mensagem-portugues" type="text" value=" "> </input>
-          <button id="Cifrar">Cifrar</button>
-          <output id="resposta1"> "  " </output>
-        </div>       
+          <div>
+            <label for="textmsgencrypt"> PALAVRA (em caixa alta) </label>
+            <input type="text" id="textencrypt">
+          </div>
+              
+          <div>
+            <button id="btnsend"> Clique aqui para obter a cifra </button>
+          </div>
 
-        <div id="div-filha">
-          <label for="instrução1">
-            Insira o código com as orientações e clique em Decifrar
-          </label>
-          <input id="mensagem-portugues" type="text" value=" "> </input>
-          <button id="Cifrar">Decifrar</button>
-          <output id="resposta1"> "  " </output>
-        </div>     
-      </div>
+          <div>
+            <p id="answer">""</p>
+          </div>
+        </form>
 
-    </main>
+      </main>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
