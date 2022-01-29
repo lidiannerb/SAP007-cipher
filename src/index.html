@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Rotas</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,27 +11,28 @@
 
       <main>
         
-        <form name="Cifrar">
-          <legend>Digite a chave e em seguida a palavra que deseja cifrar.</legend>
+        <section class="caixa">
 
-          <div>
+          <h1>Digite a chave antes de Cifrar ou Decifrar suas mensagens</h1>
+
+          <div class="key">
             <label for="offset">Chave</label>
             <input type="number" id="offset">
           </div>
 
-          <div>
-            <label for="textmsgencrypt"> PALAVRA (em caixa alta) </label>
+          <div class ="encrypt">
             <input type="text" id="textencrypt">
-          </div>
-              
-          <div>
-            <button id="btnsend"> Clique aqui para obter a cifra </button>
+            <button id="btnsend1"> Cifrar </button>
+            <p id="answer1"></p></p>
           </div>
 
-          <div>
-            <p id="answer">""</p>
+          <div class ="decrypt">
+            <input type="text" id="textdecrypt">
+            <button id="btnsend2"> Decifrar </button>
+            <p id="answer2"></p></p>
           </div>
-        </form>
+
+        </section>
 
       </main>
     </div>

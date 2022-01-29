@@ -1,50 +1,66 @@
-/* * {
+/* *{
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
-} */
-
-legend{
-    margin-bottom: 20px;
-}
-
-form {
-    border: 1px solid #000;
-    padding: 100px;
-    border-radius: 20px;
-    background-color: #eee;
-}
-
-#offset{
-    margin-bottom: 20px;
-}
-
-#msgcifrar{
-    margin-bottom: 10px;
-}
-
-#botao{
-    border-radius: 10px;
-    padding: 2px 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
+}*/
 body{
-    background-color:white;
-}
-
-#main-container {
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #1d232A;
+    font-family: sans-serif;
 }
  
-#resposta{
-    padding: 2px 20px;
+.caixa{
+    border: 10px solid aquamarine;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #eee;
+    width: 1000px;
+    margin:10px 50px 80px 100px;
 }
 
-input{
-    display: block;
+.key {
+    width: 50px;
+    position: relative;
+    padding: 7px 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+#offset{
+    width: 50px;
+    padding: 7px 7px;
+    font-size: large;   /*estudar esse large*/
+}
+#main-container {
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 10px 10px;
+    margin-right: 10px 10px;
+}
+
+#textencrypt{
+    display: inline-block;
+    width: 420px;
+    height: 50px;
+}
+
+#textdecrypt {
+    display: inline-block;
+    width: 420px;
+    height: 50px;
+}  
+
+.encrypt{
+    display:flex; /* fez os 3 elementos ficarem um ao lado do outro na mesma linha */ 
+}
+.decrypt{
+    display:flex; /* fez os 3 elementos ficarem um ao lado do outro na mesma linha */ 
+    margin-top: 50px;
+}
+p{
+    padding:  0 10px 0 20px;
+}
+
+button{
+    width: 80px;
 }
