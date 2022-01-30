@@ -11,7 +11,6 @@ function encryptingText (e){
     const encrypting = cipher.encode(offset, string);    
     document.getElementById("answer1").innerHTML = encrypting;
 }
-
 btnEncrypt.addEventListener('click', encryptingText)
 
 
@@ -25,7 +24,6 @@ function decryptingText (e){
     const decrypting = cipher.decode(offset, string);    
     document.getElementById("answer2").innerHTML = decrypting;
 }
-
 btnDecrypt.addEventListener('click', decryptingText)
 
                      

@@ -5,62 +5,60 @@
     box-sizing: border-box;
 }*/
 body{
+    margin: 50px;
     background-color: #1d232A;
     font-family: sans-serif;
 }
+
+h1{
+    text-align: center;
+}
  
 .caixa{
-    border: 10px solid aquamarine;
-    padding: 50px;
+    border: 10px solid #ffee00;
+    padding: 70px;
     border-radius: 20px;
     background-color: #eee;
-    width: 1000px;
-    margin:10px 50px 80px 100px;
+    width: 800px;
+    margin: auto;  
+         
 }
 
 .key {
     width: 50px;
-    position: relative;
-    padding: 7px 7px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    padding: 7px 7px; /* espaço interno do campo*/
+    margin-bottom: 30px; /*margem abaixo do campo (gera espaço entre a chave e o form*/
+    text-align: center;
 }
 #offset{
     width: 50px;
     padding: 7px 7px;
     font-size: large;   /*estudar esse large*/
-}
-#main-container {
-    margin-top: 100px;
-    width: 1000px;
-    margin-left: 10px 10px;
-    margin-right: 10px 10px;
+    border: 1px solid #000;  
+    border-radius: 8px;
+
 }
 
-#textencrypt{
+textarea{
     display: inline-block;
     width: 420px;
-    height: 50px;
+    height: 70px;
+    border: 1px solid #000;    
+    border-radius: 8px;    
 }
-
-#textdecrypt {
-    display: inline-block;
-    width: 420px;
-    height: 50px;
-}  
 
 .encrypt{
     display:flex; /* fez os 3 elementos ficarem um ao lado do outro na mesma linha */ 
 }
 .decrypt{
-    display:flex; /* fez os 3 elementos ficarem um ao lado do outro na mesma linha */ 
+    display:flex; 
     margin-top: 50px;
-}
-p{
-    padding:  0 10px 0 20px;
 }
 
 button{
     width: 80px;
+    background-color: #1d232A;
+    color: #eee;
+    border-radius: 8px;
+    
 }
