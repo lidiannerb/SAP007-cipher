@@ -15,7 +15,7 @@ h1{
 }
  
 .caixa{
-    border: 10px solid #ffee00;
+    border: 5px solid #ffee00;
     padding: 70px;
     border-radius: 20px;
     background-color: #eee;
@@ -36,7 +36,6 @@ h1{
     font-size: large;   /*estudar esse large*/
     border: 1px solid #000;  
     border-radius: 8px;
-
 }
 
 textarea{
@@ -48,7 +47,7 @@ textarea{
 }
 
 .encrypt{
-    display:flex; /* fez os 3 elementos ficarem um ao lado do outro na mesma linha */ 
+    display:flex; /* fez os 3 elementos da div ficarem um ao lado do outro na mesma linha */ 
 }
 .decrypt{
     display:flex; 
@@ -59,6 +58,31 @@ button{
     width: 80px;
     background-color: #1d232A;
     color: #eee;
-    border-radius: 8px;
+    border-radius: 8px;    
+}
+
+.btninstruct{
+    padding: 10px;
+    background:#d8d49c ;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.modal {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    position: absolute;
+    display: none; /*fez sumir a tela de instruções*/
+    top: 200px;
+    right: 400px;
+    border-radius: 15px;
+    background-color: rgb(169, 172, 135);
+    border: 5px solid #ffee00
     
+     
+ 
+
 }
