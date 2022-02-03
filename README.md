@@ -14,13 +14,17 @@ A [Sitema de Rotas](linkdoprojeto) é uma ferramenta que pode ser utilizada em e
 Seu uso é limitado ao cliente (contratante do serviço) e a empresa de transporte (somente Motoristas e o Departamento de Monitoramento de Rotas).
 Os usuários trocam informações via mensagem de texto por aplicativo de celular através de mensagem codificada, ou seja, antes de trocar qualquer tipo de informação sobre o trajeto dos veículos, codificam ou descodificam suas mensagens através da ferramenta.
 
-Os usuários utilizam a ferramenta para cifrar o ponto de retirada e de entrega de valores utilizando o seguinte padrão.
+Os clientes utilizam a ferramenta para cifrar o ponto de retirada e de entrega de valores utilizando o seguinte padrão.
  
- NOME DA EMPRESA (letra maiúscula) 
- RETIRADA (letra maiúscula) nome do bairro (letra minúsula)
- ENTREGA (letra maiúscula) nome do bairro (letra minúsula)
+- [ ] **NOME DA EMPRESA (letra maiúscula)**
+- [ ] **RETIRADA (letra maiúscula) nome do bairro (letra minúsula)**
+- [ ] **ENTREGA (letra maiúscula) nome do bairro (letra minúsula)**
 
-As localidades exatas (nome da rua, número, cep) utilizadas por cada cliente são cadastradas em outro sistema. Porém, todos os envolvidos no processo tem acesso a essas informações previamente.
+As mensagens não podem conter acentos ou caracteres especiais.
+
+As localidades exatas (nome da rua, número, cep) utilizadas por cada cliente são cadastradas em outro sistema de segurança. O departamento que monitora as rotas utiliza o mesmo padrão para informar aos motoristas qual será o trajeto de cada empresa. Os motoristas devem informar qualquer tipo de ocorrência no trajeto também através de mensagens codificadas.
+
+A chave para cifrar e decifrar é definida pelo cliente a cada envio de nova rota. O departamento repassa essa informação aos motoristas.
  
 ## 2. Objetivo
 

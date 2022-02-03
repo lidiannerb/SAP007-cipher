@@ -19,22 +19,34 @@
           </div>
 
           <div class ="encrypt">
-            <textarea id="textencrypt" cols="10" rows="10"></textarea>
+            <textarea id="textencrypt" cols="10" rows="10" placeholder="Bloco 1"></textarea>
             <button id="btnsend1"> Cifrar </button>
-            <textarea id="answer1" cols="10" rows="10"></textarea>
+            <textarea id="answer1" cols="10" rows="10" placeholder="Bloco 2"></textarea>
           </div>
 
           <div class ="decrypt">
-            <textarea id="textdecrypt" cols="10" rows="10"></textarea>
+            <textarea id="textdecrypt" cols="10" rows="10" placeholder="Bloco 3"></textarea>
             <button id="btnsend2"> Decifrar </button>
-            <textarea id="answer2" cols="10" rows="10"></textarea>
+            <textarea id="answer2" cols="10" rows="10" placeholder="Bloco 4"  ></textarea>
           </div>
-
+      
           <button id= "btnModal" class="btninstruct">?</button>
         
         </section>
 
-        <div class="modal">alallalala</div>
+        <div class="modal">
+          
+          <h2>Orientações de uso</h2>
+            <p>Digite a chave (número) no campo "offset" </p>
+          <h3>Para CIFRAR</h3>
+            <p>Digite a mensagem dentro do bloco 1, aperte no botão "CIFRAR" e obtenha a mensagem cifrada dentro do bloco 2</p>
+
+          <h3>Para DECIFRAR</h3>
+          <p>Digite a mensagem cifrada dentro do bloco 3, aperte no botão "DECIFRAR" e obtenha a mensagem no bloco 2</p>
+
+          <button id= "btnFecharModal" class="fecharModal">X</button>
+
+        </div>
 
       </main>
  

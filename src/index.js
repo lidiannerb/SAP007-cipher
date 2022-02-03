@@ -26,6 +26,10 @@ function decryptingText (e){
 }
 btnDecrypt.addEventListener('click', decryptingText)
 
+
+/*Abaixo estão as funções para abrir e fechar o display com as instruções de uso*/ 
+
+
 const btnInstruct = document.getElementById("btnModal");
 
 function instruct () {
@@ -35,4 +39,11 @@ function instruct () {
 }
 btnInstruct.addEventListener('click', instruct)
 
+const modalOff = document.getElementById("btnFecharModal");
 
+function instructOff () {
+
+    let modal = document.querySelector('.modal')
+    modal.style.display = 'none'; // mudando o display de forma dinâmica (js)
+}
+modalOff.addEventListener('click', instructOff)

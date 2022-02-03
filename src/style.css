@@ -46,6 +46,13 @@ textarea{
     border-radius: 8px;    
 }
 
+button{
+    width: 80px;
+    background-color: #1d232A;
+    color: #eee;
+    border-radius: 8px;    
+}
+
 .encrypt{
     display:flex; /* fez os 3 elementos da div ficarem um ao lado do outro na mesma linha */ 
 }
@@ -54,35 +61,44 @@ textarea{
     margin-top: 50px;
 }
 
-button{
-    width: 80px;
-    background-color: #1d232A;
-    color: #eee;
-    border-radius: 8px;    
-}
-
 .btninstruct{
     padding: 10px;
-    background:#d8d49c ;
+    background:#1d232A ;
     display: inline-block;
     margin-top: 20px;
     border-radius: 10px;
-
 }
 
 .modal {
     width: 500px;
-    height: 300px;
+    height: 320px;
     padding: 20px;
     position: absolute;
     display: none; /*fez sumir a tela de instruções*/
     top: 200px;
     right: 400px;
     border-radius: 15px;
-    background-color: rgb(169, 172, 135);
-    border: 5px solid #ffee00
-    
-     
- 
-
+    background-color: whitesmoke;
+    border: 5px solid black;   
+    animation: animate; 
+    animation-duration: 1000ms;
 }
+
+@keyframes animate{
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.fecharModal{
+    width: 30px;
+    height: 30px;
+    background-color:#1d232A;
+    border-radius: 50%; /*arredondando um botão */
+    float: right; /*passando o botão para cima da div modal */
+}
+
+h2{
+    text-align: center;
+}
+
+
