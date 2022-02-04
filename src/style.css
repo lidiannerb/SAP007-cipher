@@ -71,7 +71,7 @@ button{
 
 .modal {
     width: 500px;
-    height: 350px;
+    height: 400px;
     padding: 10px;
     position: absolute;
     display: none; /*faz sumir a tela de instruções*/
