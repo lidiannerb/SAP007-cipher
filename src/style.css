@@ -71,12 +71,12 @@ button{
 
 .modal {
     width: 500px;
-    height: 320px;
-    padding: 20px;
+    height: 350px;
+    padding: 10px;
     position: absolute;
-    display: none; /*fez sumir a tela de instruções*/
-    top: 200px;
-    right: 400px;
+    display: none; /*faz sumir a tela de instruções*/
+    top: 200px; /* fez sobrepor a section caixa*/ 
+    right: 400px; /* fez sobrepor a section caixa*/ 
     border-radius: 15px;
     background-color: whitesmoke;
     border: 5px solid black;   
