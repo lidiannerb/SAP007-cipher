@@ -9,7 +9,7 @@ encode: function (offset, text){
       throw new TypeError();
     }
 
-  let textCoded = "";
+  let showMsgCode = "";
     
   for (let i=0; i < text.length; i++){  
      let encrypt = text.charCodeAt(i);
@@ -23,9 +23,9 @@ encode: function (offset, text){
       } else if (encrypt == 32) {
         encrypt = encrypt + text.charAt(i);
       } 
-      textCoded += String.fromCharCode(encrypt);
+      showMsgCode += String.fromCharCode(encrypt);
     }
-    return textCoded;
+    return showMsgCode;
 },
 
 decode: function (offset, text){
@@ -37,7 +37,7 @@ decode: function (offset, text){
     throw new TypeError();
   }
 
-  let textDecoded = "";
+  let showMsgDecode = "";
       
   for (let i=0; i < text.length; i++){
 
@@ -53,9 +53,9 @@ decode: function (offset, text){
         decrypt = (decrypt + text.charAt(i));
       }
 
-      textDecoded += String.fromCharCode(decrypt);
+      showMsgDecode += String.fromCharCode(decrypt);
   }   
-    return textDecoded;
+    return showMsgDecode;
   }
 };
 export default cipher;
