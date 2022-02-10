@@ -30,21 +30,21 @@ btnDecrypt.addEventListener('click', decryptingText)
 
 
 
-const btnInstruct = document.getElementById("btnModal");
+const showModal = document.getElementById("btnModal");
 
 function instruct () {
 
     let modal = document.querySelector('.modal')
     modal.style.display = 'block';  
 }
-btnInstruct.addEventListener('click', instruct)
+showModal.addEventListener('click', instruct)
 
 
-const modalOff = document.getElementById("btnFecharModal");
+const hideModal = document.getElementById("btnHideModal");
 
 function instructOff () {
 
     let modal = document.querySelector('.modal')
     modal.style.display = 'none'; 
 }
-modalOff.addEventListener('click', instructOff)
+hideModal.addEventListener('click', instructOff)

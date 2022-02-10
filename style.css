@@ -14,7 +14,7 @@ h1{
     text-align: center;
 }
  
-.caixa{
+.container{
     border: 5px solid #ffee00;
     padding: 70px;
     border-radius: 20px;
@@ -89,10 +89,10 @@ button{
     from{opacity: 0;}
 }
 
-.fecharModal{
+.hideModal{
     width: 30px;
     height: 30px;
-    background-color:#1d232A;
+    background-color:#283038;
     border-radius: 50%; /*arredondando um botão */
     float: right; /*passando o botão para cima da div modal */
 }
